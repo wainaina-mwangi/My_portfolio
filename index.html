@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- bootstrap icons cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- helps in loading the javascript faster -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- start of the Navbar -->
+    <header>
+<a href="#" class="logo">Erastus_Wainaiana</a>
+<div class="toggle" onclick="toggleMenu();"></div>
+<ul class="menu">
+<li><a href="#home" onclick="toggleMenu();">Home</a></li>
+<li><a href="#about" onclick="toggleMenu();">About</a></li>
+<li><a href="#services" onclick="toggleMenu();">Services</a></li>
+<li><a href="#education" onclick="toggleMenu();">Education</a></li>
+<li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+<li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+</ul>
+</header>
+<section class="banner" id="home">
+  <div class="text-banner">
+    <h2>Hello, I'm  <br> <span>Erastus Wainaina.</span></h2>
+    <h3>Software Developer.</h3>
+    <a href="./assets/cv_page-0001.jpg" download class="btn">
+      Download CV
+    </a>
+  <a href="#contact" class="btn">Contact Us</a>
+  </div>
+</section>
+<!-- start of my About section -->
+<section class="about" id="about">
+  <div class="heading">
+    <h2>About Me</h2>
+  </div>
+  <div class="content">
+    <div class="contentbox">
+      <h3>I am currently learning client web languages.</h3>
+      <p>👋 Hi, I’m Erastus Wainaina, a full-stack developer with a passion for building clean, efficient, and user-friendly web applications. <br>
+
+        With one year of hands-on experience, I specialize in JavaScript and its powerful ecosystem—including libraries and frameworks like React, Node.js, and more. I enjoy working across the stack, from crafting responsive frontends to building robust backend services.
+        <br>
+        I’m driven by curiosity and the challenge of turning ideas into real-world solutions that make a difference. Whether it’s collaborating on a team or tackling a solo project, I’m always focused on writing maintainable code and continuously improving my skills.
+        
+        Outside of coding, you’ll probably find me hiking through nature trails, gaming, or diving into new tech trends and side projects.
+        
+        Thanks for visiting my portfolio—feel free to explore my work or reach out if you’d like to connect or collaborate!</p>
+    </div>
+    <div class="w50">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img"> 
+    </div>
+  </div>
+</section>
+
+<!-- services section -->
+
+ <section class="services" id="services">
+  <div class="heading white">
+    <h2>Services</h2>
+    <p>With expertise in full-stack development, digital marketing, and technical support, I offer solutions that help businesses grow and stay competitive. Explore my services to see how I can help you succeed online</p>
+  </div>
+  <div class="content">
+    <div class="servicesbox">
+      <div class="icon"><i class="bi bi-braces"></i></div>
+      <h2>Web Design</h2>
+      <p>My goal is to create designs that reflect your brand, are easy to navigate, and drive user engagement.</p>
+    </div> 
+    <div class="servicesbox">
+      <div class="icon"><i class="bi bi-code-slash"></i></div>
+      <h2>  Full-Stack Web Development</h2>
+      <p>I build responsive, scalable web apps using JavaScript, React, and Node.js—front to back.</p>
+    </div> 
+    <div class="servicesbox">
+      <div class="icon"><i class="bi bi-eye-fill"></i></div>
+      <h2>S.E.O</h2>
+      <p>I focus on delivering long-term results, improving not just your search engine rankings but also the overall user experience.</p>
+    </div> 
+    <div class="servicesbox">
+      <div class="icon"><i class="bi bi-wordpress"></i></div>
+      <h2>WordPress Design & Development</h2>
+      <p>Custom theme development, plugin integration, and maintenance for WordPress websites.</p>
+    </div> 
+    <div class="servicesbox">
+      <div class="icon"><i class="bi bi-tools"></i></div>
+      <h2>Technical Support and Maintenance
+      </h2>
+      <p>Providing ongoing technical support, updates, and maintenance services for websites and applications.</p>
+      
+    </div>
+    <div class="servicesbox">
+      <div class="icon"><i class="bi bi-bar-chart-fill"></i></div>
+      <h2>Digital Marketing</h2>
+      <p>Helping businesses with online marketing strategies, including SEO, social media marketing, PPC, and content marketing.</p>
+    </div>  
+  </div>
+</div>
+</section> 
+
+<!-- Education section -->
+<section id="education">
+  <h2>My Education</h2>
+  <div class="education-container">
+    <div class="education-item">
+      <i class="bi bi-mortarboard-fill"></i>
+      <div class="education-details">
+        <h3> Certified Software Development</h3>
+        <p class="institution">Power Learn Project Africa</p>
+       <p class="years"> Feb,2025 - Present</p>
+      </div>
+    </div>
+    <div class="education-item">
+      <i class="bi bi-mortarboard-fill"></i>
+      <div class="education-details">
+        <h3>Diploma in Front-End Engineering</h3>
+        <p class="institution">Nairobits School Of Design</p>
+        <p class="years">2023 - 2024</p>
+      </div>
+    </div>
+    <div class="education-item">
+      <i class="bi bi-mortarboard-fill"></i>
+      <div class="education-details">
+        <h3>Certificate in Graphic Design</h3>
+        <p class="institution">Nairobits School Design</p>
+        <p class="years">July,2023 - Dec,2023</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- projects section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+  <!-- card 1 -->
+      <div class="project-card">
+        <img
+          src="https://images.unsplash.com/photo-1623915695133-d624f7759fd0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Weather App Screenshot">
+        <h3>Hospital Pharmify Website</h3>
+        <p>A modern Hospital website built with HTML, CSS, and bootstrap showcasing The Services Offered By the Hospital.</p>
+        <a href="https://pharma-sandy.vercel.app/" target="_blank" class="project-link">
+          <i class="bi bi-box-arrow-up-right"></i> View Project
+        </a>
+      </div>
+  <!-- card 2 -->
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1530563885674-66db50a1af19?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Weather App Screenshot">
+        <h3>Weather App</h3>
+        <p>A simple and user-friendly weather application that displays real-time weather information for any city. Built with HTML, CSS, and JavaScript using OpenWeather API.</p>
+        <a href="https://github.com/wainaina-mwangi/Weather-App" target="_blank" class="project-link">
+          <i class="bi bi-github"></i> GitHub Repo
+        </a>
+      </div>
+  <!-- card 3 -->
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1735212769704-d03b95dd1a14?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Weather App Screenshot">
+        <h3>Movie-Search App</h3>
+        <p>A responsive movie application that allows users to browse and filter movies by category, title, or rating. Built with JavaScript and modern UI design.</p>
+        <a href="https://movie-app-web-tau.vercel.app/" target="_blank" class="project-link">
+          <i class="bi bi-box-arrow-up-right"></i> View Project
+        </a>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- Skills section -->
+  
+  <section id="skills">
+    <h2>My Skills</h2>
+  
+    <div class="skills-container">
+  
+      <!-- Programming Languages -->
+      <div class="skill-category">
+        <h3><i class="bi bi-code-slash"></i> Programming Languages</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+        </ul>
+      </div>
+  
+      <!-- Frameworks & Libraries -->
+      <div class="skill-category">
+        <h3><i class="bi bi-box-seam"></i> Frameworks & Libraries</h3>
+        <ul>
+          <li>React.js</li>
+          <li>Node.js</li>
+          <li>Bootstrap</li>
+          <li>Express.js</li>
+        </ul>
+      </div>
+  
+      <!-- Version Control -->
+      <div class="skill-category">
+        <h3><i class="bi bi-git"></i> Version Control</h3>
+        <ul>
+          <li>Git</li>
+          <li>GitHub</li>
+        </ul>
+      </div>
+  
+    </div>
+  </section>
+</section>
+<!-- contact section -->
+<section class="contact" id="contact">
+<div class="heading white">
+    <h2>Contact Me</h2>
+    <p>Some questions about work. Here you are.</p>
+</div>
+  <div class="content">
+    <div class="contactinfo">
+      <h3>Contact Informations</h3>
+      <div class="contactinfobox">
+        <div class="box">
+          <div class="icon"><i class="bi bi-geo-alt-fill"></i></div>
+          <div class="text">
+            <h3>Adress</h3>
+            <p>Nairobi ,Kenya +254</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="bi bi-telephone-forward-fill"></i></div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>(+254) 1 14 45 79 31</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="bi bi-envelope-arrow-down-fill"></i></div>
+          <div class="text">
+            <h3>Mail</h3>
+            <p>wainainaerastus2@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="formbox">
+    <form>
+      <h3>Message Me</h3>
+      <input type="text" name="" placeholder="Full Name">
+      <input type="email" name="" placeholder="Your email">
+      <textarea placeholder="Your message"></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+  </div>
+</section>
+<div class="copyright">
+Copyright 2025 © Erastus_Wainaian. All Rights Reserved
+</div>
+<script type="text/javascript">  window.addEventListener('scroll', function(){
+var header= document.querySelector('header');
+header.classList.toggle('sticky', window.scrollY > 0);    
+  });
+  
+  function toggleMenu(){
+    var menutoggle = document.querySelector('.toggle');
+    var menu = document.querySelector('.menu');
+    menutoggle.classList.toggle('active');
+    menu.classList.toggle('active') 
+  }
+</script>
+</body>
+    
+
+</html>
