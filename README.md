@@ -23,7 +23,7 @@ To run this project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/portfolio.git
+https://github.com/wainaina-mwangi/My_portfolio.git
 
 # Navigate to the project folder
 cd portfolio
