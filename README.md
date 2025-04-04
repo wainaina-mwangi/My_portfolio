@@ -37,7 +37,7 @@ npm start  # or yarn start
 
 ## 🌍 Live Demo
 
-Check out the live version of my portfolio: [Live Demo](https://erastus-wainaian.vercel.app/)
+Check out the live version of my portfolio: [Live Demo](https://erastus-wainaina.vercel.app/)
 
 
 
